@@ -1,0 +1,76 @@
+
+/* the main styles */
+
+body {
+    background-color:rgb(12, 11, 11);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* styling the main styles for the profile card */
+
+.maincard{
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 421px;
+    background-color:hsl(0, 0%, 8%);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* styling the profile image */
+
+.maincard img{
+    border-radius: 50%;
+    width:100px ;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* the profile name text styling */
+
+.maincard h1{
+    color:hsl(0, 0%, 100%);
+    margin-bottom: -5px;
+}
+
+/* styling the address */
+
+.address{
+    color : hsl(75, 94%, 57%); 
+}
+
+/* styling the job */
+
+.job{
+    color: hsl(0, 0%, 100%);
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+/* stylig the social media links */
+
+/* the button styling */
+
+.maincard a{
+    width:100% ;
+    height: 35px;
+    margin: 7px;
+    background-color: hsl(0, 0%, 20%);
+    box-shadow: none;
+    border-radius: 5px;
+    border-color: transparent;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* style the add at the center */
+
